@@ -1,8 +1,6 @@
 # lamp-spotify-api
 <h1>A LAMP stack spotify API project to auto-save users listening history</h1>
 <p>
-Hey guys!
-
 Here you can find a basic application to authenticate users through the Spotify API, then using the access tokens and refresh tokens a script, which should auto-run every now-and-then (cron) collects all the authenticated users listening history and stores it in a database alongside the registered users and there access and refresh tokens, also automaticly acquires new access tokens when they expire, using the refresh tokens. What it really is is a foundation, on which feel free to build your own ideas. | Maybe if you're having problem implementing OAuth yourself, or working with databases with PHP take a peek.
 </p>
 <h2>Requirments:</h2>
